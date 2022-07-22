@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+
+
+body{
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.color-white{
+  color: white;
+}
+
+
+.bg-head{
+  background-image: url('IMG/Companyaigt.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*nav*/
+.logo{
+  font-size: 32px;
+  font-weight: 700;
+}
+.butts{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/*Header*/
+.Company{
+  margin-top: 110px;
+  align-items:center;
+
+}
+
+.Titled p{
+  font-size: 64px;
+  font-weight: 700;
+  color: white;
+}
+
+.Titled .tangled{
+  border: 4px solid #F5AF31;
+  width: 180px;
+}
+
+.Titled h6{
+  width: 900px; 
+  word-break: break-all;
+  font-weight: 500;
+  font-size: 24px;
+  color: white;
+}
+/*Card*/
+
+
+.card img{
+  height: 150px;
+  width: 150px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+
+
+.square{
+
+  color: white;
+  background-color: #121212!important;
+}
+ .square .weow{
+  border: 2px solid #F5AF31;
+  width: 40px;
+}
+.Rank{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.rect{
+  width: 4px;
+  height: 40px;
+  background-color: #F5AF31;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+/*Parallax*/
+.parallax{
+  background-image: url("IMG/Companyaigt.png");
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*framework*/
+.F-bg{
+  background-color: #0B0C10;
+  color: white;
+  height: 600px;
+}
+
+.her{
+  margin-top: 120px;
+  border: 4px solid #F5AF31;
+  width: 80px;
+  height: 4px;
+}
+
+.her2{
+  margin-top: 120px;
+  border: 4px solid #F5AF31;
+  width: 80px;
+}
+
+.Framework{
+  color: white;
+  font-weight: 800;
+  font-size: 48px;
+  margin-top: 80px;
+}
+
+.F-p{
+  font-size: 20px;
+  font-weight: 400;
+  width: 1000px; 
+  word-break: break-all;
+}
+
+/*Internship*/
+.I-bg{
+  background-color: #121212;
+  color: white;
+  height: 100vh;
+}
+
+.Internship{
+  color: white;
+  font-weight: 800;
+  font-size: 48px;
+  margin-top: 80px;
+}
+
+.Ken{
+  color: #F5AF31;
+  font-size: 20px;
+  font-weight: 700;
+}
+.Box{
+  background-color: #0B0C10;
+  width: 450px;
+  height: 540px;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+.Sup{
+  border-right: 5px solid #F5AF31;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+}
+
+.Int img{
+  height: 250px;
+  width: 250px;
+}
+
+.Sup img{
+  height: 250px;
+  width: 250px;
+}
+.visor{
+  font-weight: 400;
+  font-size: 16px;
+}
+.Cresse{
+  font-size: 24px;
+  font-weight: 700;
+  color: #F5AF31;
+}
+.Pos{
+  height: 10px;
+}
+.Pos2{
+  height: 10px;
+}
+.her2{
+  margin-top: 120px;
+  border: 4px solid #F5AF31;
+  width: 80px;
+  height: 4px;
+}
+
+/*Self Assessment*/
+.SA-bg{
+  background-color: #0B0C10;
+  color: white;
+}
+
+.SEbox{
+  width: 350px;
+  height: 350px;
+  background-color: #121212;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+  border-bottom: 4px solid #F5AF31;
+}
+.SEbox2{
+  width: 350px;
+  height: 350px;
+  background-color: #F5AF31;
+}
+.ASbox{
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+}
+.ASbox2{
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+}
+.Answer{
+  font-size: 14px;
+  color: white;
+}
+.her2{
+  margin-top: 120px;
+  border: 4px solid #F5AF31;
+  width: 80px;
+  height: 4px;
+}
+
+/*weekly report and apendices*/
+.WRA-bg{
+  background-color: #121212;
+  color: white;
+  height: 100vh;
+}
+.glass{
+  height: 400px;
+  width: 300px;
+  background: linear-gradient(135deg,rgba(225,255,255,0.1), rgba(225 ,255,255,0));
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+  border-left: 5px solid #F5AF31;
+  border-radius: 0px;
+}
+.WRA-form{
+  writing-mode: vertical-rl;
+text-orientation: mixed;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.fade-in-image { 
+  animation: fadeIn 5s; 
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.hover {
+  --b: 0.1em;   /* the thickness of the line */
+  --c: #F5AF31; /* the color */
+  
+  color: rgba(255, 255, 255, 0);
+  padding-block: var(--b);
+  background: 
+    linear-gradient(var(--c) 50%,rgb(255, 255, 255) 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+.hover:hover {
+  --_p: 100%;
+  --_s: .3s;
+}
+
+.loona {
+  cursor: pointer;
+  padding: 0 .1em;
+}
+
+/*Footer*/
+.footer-basic {
+  padding:40px 0;
+  background-color:#F5AF31;
+  color:#121212;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border: 2px solid #121212;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#121212;
+  margin-bottom:0;
+}
+
+
+
+
+/*Tablet*/
+@media all and (max-width:992px) {
+  /*Company*/
+  .parallax{
+    background-image: url("IMG/Companyaigt.png");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .Titled p{
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+  }
+  .Titled h6{
+    width: 600px; 
+    word-break: break-all;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+  }
+  .Titled hr{
+    border: 2px solid #F5AF31;
+    width: 90px;
+  }
+  /*Framework*/
+  .F-p{
+    width: 600px; 
+    word-break: break-all;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+  }
+  /*Internship*/
+  .I-bg{
+    background-color: #121212;
+    color: white;
+    height: 130vh;
+  }
+  .Box{
+    background-color: #0B0C10;
+    width: 350px;
+    height: 400px;
+  }
+  .Sup{
+    border-bottom: 5px solid #F5AF31;
+    border-right: none;
+  }
+  
+  .Int img{
+    height: 100px;
+    width: 100px;
+  }
+  
+  .Sup img{
+    height: 150px;
+    width: 150px;
+  }
+  .visor{
+    height: 10px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .Cresse{
+    height: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #F5AF31;
+    margin-top: -20px;
+  }
+  .Pos{
+    height: 10px;
+  }
+  .Pos2{
+    height: 30px;
+  }
+  .her2{
+    margin-top: 0px;
+    height: 80px;
+    width: 4px;
+    background-color: #F5AF31;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+  /*Weekly report and appendices*/
+  .glass{
+    height: 200px;
+    width: 300px;
+    background: linear-gradient(135deg,rgba(225,255,255,0.1), rgba(225 ,255,255,0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    border-left: 5px solid #F5AF31;
+    border-radius: 0px;
+  }
+  .WRA-form{
+    writing-mode: vertical-rl;
+  text-orientation: mixed;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+}
+/*Phone*/
+@media all and (max-width:768px) {
+  .Titled p{
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+  }
+  .Titled h6{
+    width: 400px; 
+    word-break: break-all;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+  }
+  .Titled hr{
+    border: 2px solid #F5AF31;
+    width: 90px;
+  }
+
+  /*Card*/
+  .card{
+    width: 200px;
+    height: 300px;
+  }
+.card img{
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+.square{
+
+  color: white;
+  background-color: #121212!important;
+}
+ .square .weow{
+  border: 2px solid #F5AF31;
+  width: 40px;
+}
+.Rank{
+  font-size: 15px;
+  font-weight: 400;
+}
+    /*Weekly report and appendices*/
+    .glass{
+      height: 200px;
+      width: 100px;
+      background: linear-gradient(135deg,rgba(225,255,255,0.1), rgba(225 ,255,255,0));
+      -webkit-backdrop-filter: blur(20px);
+      backdrop-filter: blur(20px);
+      box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+      border-left: 5px solid #F5AF31;
+      border-radius: 0px;
+    }
+    .WRA-form{
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      font-size: 20px;
+      font-weight: 400;
+    }
+    
+}
