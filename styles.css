@@ -472,7 +472,7 @@ text-orientation: mixed;
     color: white;
   }
   .Titled h6{
-    width: 400px; 
+    width: 300px; 
     word-break: break-all;
     font-weight: 300;
     font-size: 13px;
@@ -504,7 +504,7 @@ text-orientation: mixed;
 /*Parallax*/
 .parallax{
   background-image: url("IMG/Companyaigt.png");
-  height: 135vh;
+  height: 160vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
