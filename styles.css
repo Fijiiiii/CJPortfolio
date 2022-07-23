@@ -524,7 +524,10 @@ text-orientation: mixed;
 }
     /*Weekly report and appendices*/
     .glass{
+      display:inline-flexbox;
       height: 80px;
+      width: 100px;
+
 
       background: linear-gradient(135deg,rgba(225,255,255,0.1), rgba(225 ,255,255,0));
       -webkit-backdrop-filter: blur(20px);
@@ -534,6 +537,7 @@ text-orientation: mixed;
       border-radius: 0px;
     }
     .WRA-form{
+      display: inline;
       writing-mode:horizontal-tb;
       text-orientation: mixed;
       font-size: 20px;
@@ -543,11 +547,11 @@ text-orientation: mixed;
 }
 
 /*Phone2*/
-@media all and (max-width:320px) {
+@media all and (max-width:500px) {
   .Titled p{
     font-size: 40px;
     font-weight: 600;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
   }
   .Titled h6{
     width: 400px; 
@@ -600,8 +604,9 @@ text-orientation: mixed;
 }
     /*Weekly report and appendices*/
     .glass{
-      height: 180px;
-      width: 100px;
+      display: inline-block;
+      height: 80px;
+      width: 10px;
       background: linear-gradient(135deg,rgba(225,255,255,0.1), rgba(225 ,255,255,0));
       -webkit-backdrop-filter: blur(20px);
       backdrop-filter: blur(20px);
@@ -610,7 +615,7 @@ text-orientation: mixed;
       border-radius: 0px;
     }
     .WRA-form{
-      writing-mode: vertical-rl;
+      writing-mode: horizontal-rl;
       text-orientation: mixed;
       font-size: 20px;
       font-weight: 400;
