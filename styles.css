@@ -607,7 +607,7 @@ body {
 /*Parallax*/
 .parallax{
   background-image: url("IMG/Companyaigt.png");
-  height: 160vh;
+  height: 180vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
