@@ -573,6 +573,8 @@ body {
   }
   .Titled h6{
     font-weight: 300;
+    word-break: break-all;
+    font-weight: 300;
     font-size: 20px;
     color: white;
     margin: 10px;
