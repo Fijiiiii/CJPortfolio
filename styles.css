@@ -472,7 +472,7 @@ text-orientation: mixed;
     color: white;
   }
   .Titled h6{
-    width: 300px; 
+    width: 400px; 
     word-break: break-all;
     font-weight: 300;
     font-size: 13px;
@@ -504,7 +504,7 @@ text-orientation: mixed;
 /*Parallax*/
 .parallax{
   background-image: url("IMG/Companyaigt.png");
-  height: 150vh;
+  height: 135vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -522,17 +522,10 @@ text-orientation: mixed;
   font-size: 13px;
   font-weight: 400;
 }
-/*Internship*/
-.I-bg{
-  background-color: #121212;
-  color: white;
-  height: 150vh;
-}
-
     /*Weekly report and appendices*/
     .glass{
-      height: 180px;
-      width: 100px;
+      height: 80px;
+
       background: linear-gradient(135deg,rgba(225,255,255,0.1), rgba(225 ,255,255,0));
       -webkit-backdrop-filter: blur(20px);
       backdrop-filter: blur(20px);
@@ -541,7 +534,7 @@ text-orientation: mixed;
       border-radius: 0px;
     }
     .WRA-form{
-      writing-mode: vertical-rl;
+      writing-mode:horizontal-tb;
       text-orientation: mixed;
       font-size: 20px;
       font-weight: 400;
