@@ -558,6 +558,7 @@ text-orientation: mixed;
 @media all and (max-width:500px) {
   body{
     overflow: auto;
+    background-color: red;
   }
   .Titled p{
     font-size: 40px;
