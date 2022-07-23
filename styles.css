@@ -55,8 +55,7 @@ body{
 }
 
 .Titled h6{
-  width: 900px; 
-  word-break: break-all;
+
   font-weight: 500;
   font-size: 24px;
   color: white;
@@ -108,7 +107,7 @@ body{
 
 /*framework*/
 .F-bg{
-  background-color: #0B0C10;
+  background-color: #0b0c10e1;
   color: white;
   height: 600px;
 }
@@ -136,13 +135,11 @@ body{
 .F-p{
   font-size: 20px;
   font-weight: 400;
-  width: 1000px; 
-  word-break: break-all;
 }
 
 /*Internship*/
 .I-bg{
-  background-color: #121212;
+  background-color: #121212f3;
   color: white;
   height: 100vh;
 }
@@ -203,7 +200,7 @@ body{
 
 /*Self Assessment*/
 .SA-bg{
-  background-color: #0B0C10;
+  background-color: #0b0c10e1;
   color: white;
 }
 
@@ -242,7 +239,7 @@ body{
 
 /*weekly report and apendices*/
 .WRA-bg{
-  background-color: #121212;
+  background-color: #121212f3;
   color: white;
   height: 100vh;
 }
@@ -257,6 +254,7 @@ body{
   border-radius: 0px;
 }
 .WRA-form{
+  text-transform: uppercase;
   writing-mode: vertical-rl;
 text-orientation: mixed;
   font-size: 35px;
@@ -570,15 +568,18 @@ body {
     color: white;
   }
   .Titled h6{
-    width: 300px; 
-    word-break: break-all;
     font-weight: 300;
-    font-size: 13px;
+    font-size: 20px;
     color: white;
   }
   .Titled hr{
     border: 2px solid #F5AF31;
-    width: 90px;
+    width: 60px;
+  }
+  .Titled .tangled{
+    border: 3px solid #F5AF31;
+    width: 120px;
+    margin-bottom: 10px;
   }
 
   /*Card*/
@@ -602,7 +603,7 @@ body {
 /*Parallax*/
 .parallax{
   background-image: url("IMG/Companyaigt.png");
-  height: 135vh;
+  height: 160vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -613,14 +614,31 @@ body {
   background-color: #121212!important;
 }
  .square .weow{
-  border: 2px solid #F5AF31;
+  margin-top: -15px;
+  border: 1px solid #F5AF31;
   width: 40px;
 }
 .Rank{
   font-size: 13px;
   font-weight: 400;
 }
+/*Framework*/
+.F-p{
+  font-size: 12px;
+  font-weight: 300;
+}
+/*Internship*/
+.I-bg{
+  background-color: #121212f3;
+  color: white;
+  height: 150vh;
+}
     /*Weekly report and appendices*/
+    .WRA-bg{
+      background-color: #121212f3;
+      color: white;
+      height: 120vh;
+    }
     .glass{
       display: inline;
       height: 80px;
