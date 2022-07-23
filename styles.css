@@ -467,15 +467,15 @@ text-orientation: mixed;
 /*Phone*/
 @media all and (max-width:768px) {
   .Titled p{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 600;
     color: white;
   }
   .Titled h6{
     width: 400px; 
     word-break: break-all;
-    font-weight: 400;
-    font-size: 15px;
+    font-weight: 300;
+    font-size: 13px;
     color: white;
   }
   .Titled hr{
@@ -485,18 +485,30 @@ text-orientation: mixed;
 
   /*Card*/
   .card{
-    width: 200px;
-    height: 300px;
+    display: flex;
+    width: 150px;
+    height: 280px;
   }
 .card img{
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
   margin-top: 10px;
   margin-left: 0px;
   margin-bottom: 10px;
 }
+.CT{
+  font-size: 15px;
+}
+/*Parallax*/
+.parallax{
+  background-image: url("IMG/Companyaigt.png");
+  height: 80vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .square{
-
   color: white;
   background-color: #121212!important;
 }
@@ -505,12 +517,12 @@ text-orientation: mixed;
   width: 40px;
 }
 .Rank{
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 400;
 }
     /*Weekly report and appendices*/
     .glass{
-      height: 200px;
+      height: 180px;
       width: 100px;
       background: linear-gradient(135deg,rgba(225,255,255,0.1), rgba(225 ,255,255,0));
       -webkit-backdrop-filter: blur(20px);
