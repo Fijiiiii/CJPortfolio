@@ -557,7 +557,7 @@ text-orientation: mixed;
 /*Phone2*/
 @media all and (max-width:500px) {
   body{
-    overflow-x: hidden;
+    overflow: auto;
   }
   .Titled p{
     font-size: 40px;
