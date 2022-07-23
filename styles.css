@@ -504,7 +504,7 @@ text-orientation: mixed;
 /*Parallax*/
 .parallax{
   background-image: url("IMG/Companyaigt.png");
-  height: 160vh;
+  height: 150vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -522,6 +522,13 @@ text-orientation: mixed;
   font-size: 13px;
   font-weight: 400;
 }
+/*Internship*/
+.I-bg{
+  background-color: #121212;
+  color: white;
+  height: 120vh;
+}
+
     /*Weekly report and appendices*/
     .glass{
       height: 180px;
